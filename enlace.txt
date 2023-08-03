@@ -1,2 +1,21 @@
 ENLACE PARA ACCEDER DE MANERA REMOTA A NUESTRO REPO EN GITHUB
 https://github.com/JhimyFuentesRojas/pruebaGitRepo.git
+
+=============================================================================
+
+CONFIGURACION GLOBAL DE GIT
+user.name=Jhimy Fuentes Rojas
+user.email=fuentesrojasjhimy@gmail.com
+
+=============================================================================
+- DE ESTA MENERA NOS CONECTAMOS DE MANERA REMOTA A NUESTRO GITHUB
+git remote add origin "https://github.com/JhimyFuentesRojas/pruebaGitRepo.git"
+
+- COMO PASAR NUESTROS ARCHIVOS DE NUESTRO REPOSITORIO LOCAL A NUESTRO REPOSITORIO DE GITHUB
+	-primeramente tenemos que crear nuestros commit
+	- git add (aqui tiene que entrar por ahora todo el nombre compoleto uno por uno)
+	- git commit -m "nombre de commit"
+PARA SUBIR UNA VEZ A GITHUB ES DE LA SIGUIENTE MANERA 
+git push -u origin (NOMBRE DE LA RAMA QUE QUERAMOS PUSHEAR o subir)
+si en caso que nos pida la autorizacion solo le permitimos
+
