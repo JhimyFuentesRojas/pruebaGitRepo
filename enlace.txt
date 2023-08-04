@@ -7,6 +7,13 @@ CONFIGURACION GLOBAL DE GIT
 user.name=Jhimy Fuentes Rojas
 user.email=fuentesrojasjhimy@gmail.com
 
+PARA CAMBIAR nombre de usuario y el email 
+git config --global user.name "nuevo_nombre"
+git config --global user.email "nuevo_email@example.com"
+
+PARA VER NUESTRA CONFIGURACION DE GIT
+git config --global --list
+
 =============================================================================
 - DE ESTA MENERA NOS CONECTAMOS DE MANERA REMOTA A NUESTRO GITHUB
 git remote add origin "https://github.com/JhimyFuentesRojas/pruebaGitRepo.git"
