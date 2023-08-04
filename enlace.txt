@@ -23,6 +23,7 @@ git remote add origin "https://github.com/JhimyFuentesRojas/pruebaGitRepo.git"
 	- git add (aqui tiene que entrar por ahora todo el nombre compoleto uno por uno)
 	- git commit -m "nombre de commit"
 PARA SUBIR UNA VEZ A GITHUB ES DE LA SIGUIENTE MANERA 
-git push -u origin (NOMBRE DE LA RAMA QUE QUERAMOS PUSHEAR o subir)
+git push -u origin (NOMBRE DE LA RAMA QUE QUERAMOS PUSHEAR o subir) ejm - git push -u congirin master
+
 si en caso que nos pida la autorizacion solo le permitimos
 
